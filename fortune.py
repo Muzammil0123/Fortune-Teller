@@ -9,7 +9,7 @@ def main():
         print("Running in CI environment: Defaulting mood to 'happy'")
     else:
     
-        mood = input("How are you feeling today? (happy/sad/neutral/stressed): ").lower()
+        mood = input("How are you feeling today? (happy/sad/neutral/stressed/excited): ").lower()
 
         fortunes = {
             "happy": [
@@ -27,6 +27,10 @@ def main():
             "stressed": [
                 "🧘 Take a deep breath, Muzammil. Peace is just around the corner.",
                 "🫶 Stress fades, strength stays. You got this Muzammil!"
+            ],
+             "excited": [
+                "🚀 Muzammil,Your energy is magnetic—big things are coming!",
+                "🎉 Ride the wave, Muzammil! Today is full of potential!"
             ]
         }
 
